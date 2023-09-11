@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Sneaker</title>
+  </head>
+  <body class="font-mono">
+    <main class="h-screen bg-purple relative">
+      <div class="container h-full max-w-7xl block mx-auto py-[20px] px-[20px]">
+        <nav class="flex items-center justify-between">
+          <div class="logo">
+            <a href="#"
+              ><img src="./img/Logo.png" alt="Logo" class="h-[60px]"
+            /></a>
+          </div>
+          <ul class="flex items-center justify-between gap-[70px]">
+            <li>
+              <a
+                href="#"
+                class="text-purple-blue text-xl hover:opacity-80 transition-all"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-purple-blue text-xl hover:opacity-80 transition-all"
+                >Featured</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-purple-blue text-xl hover:opacity-80 transition-all"
+                >Shop</a
+              >
+            </li>
+          </ul>
+          <input
+            type="text"
+            placeholder="Search Here"
+            class="search outline-none text-white bg-purple-blue px-[20px] py-[10px] rounded-md w-48 text-[16px]"
+          />
+        </nav>
+
+        <!-- Content -->
+        <div class="flex items-center h-5/6 justify-between">
+          <div>
+            <h2 class="text-5xl text-purple-blue">
+              Sneakers that uplift your style
+            </h2>
+            <p
+              class="max-w-[580px] text-[24px] font-medium my-[60px] text-purple-blue"
+              style="line-height: 1.4"
+            >
+              In ever changing fashion industory one thing that stood the test
+              of time is sneaker. Let us show you can you improve your sneaker
+              game.
+            </p>
+            <a
+              href="#"
+              class="px-[70px] transition-all hover:opacity-80 rounded-md mr-4 py-[12px] text-[16px] bg-purple-blue text-white text-center"
+            >
+              Buy Now
+            </a>
+            <a
+              href="#"
+              class="px-[70px] transition-all hover:opacity-80 rounded-md mr-4 py-[12px] text-[16px] bg-light-blue text-white text-center"
+            >
+              Explore
+            </a>
+          </div>
+          <div class="relative w-5/12 flex items-start justify-start">
+            <!-- bg-gradient-to-r from-purple-blue bg-light-blue -->
+            <div
+              class="before left-[31%] top-[48%] translate-x-[-50%] translate-y-[-50%] absolute h-[450px] rounded-full w-[450px]"
+              style="background-image: linear-gradient(45deg, #1d0b56, #007ec8)"
+            ></div>
+            <img
+              src="./img/sneaker.png"
+              class="h-[430px] relative z-10"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- Wave -->
+        <div class="wave absolute bottom-0 left-0 w-full h-2/6">
+          <img src="./img/Wave.png" class="h-full w-full" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
